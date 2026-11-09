@@ -7,7 +7,9 @@ authors = [
     { name = "hoowan-dev", email = "becerrajuan007@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pycaw>=20260927",
+]
 
 [project.scripts]
 tv-switcher = "tv_switcher:main"
